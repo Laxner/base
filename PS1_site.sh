@@ -1,4 +1,3 @@
-#to show server name and site on command line
 PS1_site=`hostname |sed "s/\./ /g" |awk '{print $2}'`
 if [ `id -u` = 0 ]
 then
